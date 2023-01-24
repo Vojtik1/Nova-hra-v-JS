@@ -69,7 +69,7 @@ export class ClimbingEnemy extends Enemy {
         super();
         this.game = game;
         this.width = 120;
-        this.height - 144;
+        this.height = 144;
         this.x = this.game.width;
         this.y =  Math.random() * this.game.height * 0.5;
         this.image = document.getElementById('enemy_spider_big');
